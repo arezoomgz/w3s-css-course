@@ -1,0 +1,15 @@
+.pcenter{
+    color: rgb(252, 153, 210);
+    text-align: center;
+}
+p.bcenter{
+    color: rgb(0, 140, 255);
+    text-align: center;
+}
+p.ycenter{
+    color: orange;
+    text-align: center;
+}
+p.large{
+    font-size: 300%;
+}
