@@ -1,0 +1,9 @@
+.sec1{
+    background-image: url("images/dog1.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1100px;
+}
+section h1, section p{
+    background-color: rgb(255, 255, 255,0.3);
+}

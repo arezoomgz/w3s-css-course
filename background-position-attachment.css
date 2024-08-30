@@ -1,0 +1,21 @@
+.secti1{
+    background-image: url("images/dog3.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 200px;
+}
+.secti2{
+    background-image: url("images/dog3.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right;
+
+    height: 200px;
+}
+.secti3{
+    background-image: url("images/dog3.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: bottom right;
+    height: 200px;
+}
