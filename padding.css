@@ -1,0 +1,21 @@
+.padding1{
+    background-color: aqua;
+    box-sizing: border-box;
+    width: 300px;
+    margin: auto;
+    padding: 30px;
+}
+.padding2{
+    background-color: aqua;
+    box-sizing: border-box;
+    width: 300px;
+    margin: auto;
+    padding: 30px 50px;
+}
+.padding3{
+    background-color: aqua;
+    box-sizing: border-box;
+    width: 300px;
+    margin: auto;
+    padding: 30px 50px 10px;
+}

@@ -1,0 +1,21 @@
+.margin1{
+    width: 300px;
+    background-color: aqua;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 150px;
+    margin-bottom: 30px;
+}
+.margin2{
+    background-color: aqua;
+    margin: 50px 150px;
+}
+.margin3{
+    background-color: aqua;
+    margin: 50px 150px 250px;
+}
+.margin4{
+    background-color: aqua;
+    width: 300px;
+    margin: auto;
+}

@@ -1,0 +1,12 @@
+.hw1{
+    background-color: aqua;
+    height: 100px;
+    width: 50%;
+    margin: auto;
+}
+.hw2{
+    background-color: aqua;
+    height: 100px;
+    max-width: 500px;
+    margin: auto;
+}

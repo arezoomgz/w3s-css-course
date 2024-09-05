@@ -1,0 +1,149 @@
+.ex{
+    width: 500px;
+    margin: auto;
+    border: 5px solid rgb(39, 151, 241);
+    padding: 5px;
+}
+.color1{
+    color: blue; 
+}
+.color2b{
+    background-color: aqua;
+}
+.align1{
+    text-align: center;
+}
+.align2{
+    text-align: left;
+}
+.align3{
+    text-align: right;
+}
+.align5{
+    text-align: justify;
+}
+.img1{
+    vertical-align: baseline;
+}
+.img2{
+    vertical-align: top;
+}
+.img3{
+    vertical-align: bottom;
+}
+.img4{
+    vertical-align: sub;
+}
+.img5{
+    vertical-align: super;
+}
+.deco1{
+    text-decoration: overline;
+}
+.deco2{
+    text-decoration: line-through;
+}
+.deco3{
+    text-decoration: underline;
+}
+.deco4{
+    text-decoration: overline underline;
+}
+.deco5{
+    text-decoration-line: overline;
+    text-decoration-color: rgb(255, 5, 201);
+    text-decoration-thickness: 2px;
+}
+.deco6{
+    text-decoration-line: line-through;
+    text-decoration-color: rgb(255, 5, 201);
+    text-decoration-thickness: 2px;
+}
+.deco7{
+    text-decoration-line: underline;
+    text-decoration-color: rgb(255, 5, 201);
+    text-decoration-thickness: 2px;
+}
+.deco8{
+    text-decoration-line: overline underline;
+    text-decoration-color: rgb(255, 5, 201);
+    text-decoration-thickness: 2px;
+}
+.deco9{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(255, 5, 201);
+    text-decoration-thickness: 2px;
+}
+.deco10{
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: rgb(255, 5, 201);
+    text-decoration-thickness: 2px;
+}
+.deco11{
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: rgb(255, 5, 201);
+    text-decoration-thickness: 2px;
+}
+.deco12{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(255, 5, 201);
+    text-decoration-thickness: 2px;
+}
+.deco13{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(255, 5, 201);
+    text-decoration-thickness: 2px;
+}
+.deco14{
+    text-decoration:underline red wavy 2px;
+}
+.textt1{
+    text-transform: uppercase;
+}
+.textt2{
+    text-transform: lowercase;
+}
+.textt3{
+    text-transform: capitalize;
+}
+.para1{
+    text-indent: 20px;
+}
+.para2{
+    letter-spacing: 5px;
+}
+.para3{
+    line-height: 30px;
+}
+.para4{
+    word-spacing: 5px;
+}
+.shadow1{
+    text-shadow: 2px 5px;
+}
+.shadow2{
+    text-shadow: 2px 3px palevioletred;
+}
+.shadow3{
+    text-shadow: 2px 3px 4px palevioletred;
+}
+.font1{
+    font-size: 30px;
+}
+.font2{
+    font-size: 3vw;
+}
+.fontg1{
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.fontg2{
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+}

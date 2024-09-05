@@ -1,0 +1,32 @@
+.bord{
+    border: 5px solid black;
+    outline:5px solid rgb(124, 190, 252);
+}
+.solid{
+    outline-style: solid;
+}
+.dotted{
+    outline-style: dotted;
+}
+.dashed{
+    outline-style: dashed;
+}
+.double{
+    outline-style: double;
+}
+.outset{
+    outline-style: outset;
+}
+.inset{
+    outline-style: inset;
+}
+.ridge{
+    outline-style: ridge;
+}
+.groove{
+    outline-style: groove;
+}
+.offset{
+    outline-style: solid;
+    outline-offset: 3px;
+}
