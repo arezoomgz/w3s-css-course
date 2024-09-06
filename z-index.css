@@ -1,0 +1,75 @@
+.contain{
+    position: relative;
+}
+.img1{
+    position: absolute;
+    z-index: -1;
+    top: -15px;
+}
+.para{
+    font-size: large;
+    font-weight: 700;
+    width: 200px;
+    background-color: rgb(141, 248, 248, 0.3);
+}
+.container1{
+    position: relative;
+}
+.black1{
+    position: absolute;
+    background-color: black;
+    color: azure;
+    z-index: 1;
+    width: 100%;
+    height: 200px;
+}
+.gray1{
+    position: absolute;
+    background-color: rgb(168, 168, 168);
+    color: azure;
+    z-index: 3;
+    right: 150px;
+    top: 110px;
+    width: 50%;
+    height: 100px;
+}
+.green1{
+    position: absolute;
+    background-color: rgb(107, 179, 0);
+    color: azure;
+    z-index: 2;
+    width: 70%;
+    height: 180px;
+    top: -15px;
+    right: 20px;
+ 
+}
+.container2{
+    position: relative;
+}
+.black2{
+    position: absolute;
+    background-color: black;
+    color: azure;
+    width: 100%;
+    height: 200px;
+}
+.gray2{
+    position: absolute;
+    background-color: rgb(168, 168, 168);
+    color: azure;
+    right: 150px;
+    top: 110px;
+    width: 50%;
+    height: 100px;
+}
+.green2{
+    position: absolute;
+    background-color: rgb(107, 179, 0);
+    color: azure;
+    width: 70%;
+    height: 180px;
+    top: -15px;
+    right: 20px;
+ 
+}
