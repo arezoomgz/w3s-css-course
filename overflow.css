@@ -1,0 +1,46 @@
+.ov{
+    width: 200px;
+    height: 60px;
+    padding: 30px;
+    margin: auto;
+    text-align: justify;
+    background-color: rgba(76, 198, 255, 0.3);
+    overflow: visible;
+}
+.oh{
+    width: 200px;
+    height: 60px;
+    padding: 30px;
+    margin: auto;
+    text-align: justify;
+    background-color: rgba(76, 198, 255, 0.3);
+    overflow: hidden;
+}
+.os{
+    width: 200px;
+    height: 60px;
+    padding: 30px;
+    margin: auto;
+    text-align: justify;
+    background-color: rgba(76, 198, 255, 0.3);
+    overflow: scroll;
+}
+.oa{
+    width: 200px;
+    height: 60px;
+    padding: 30px;
+    margin: auto;
+    text-align: justify;
+    background-color: rgba(76, 198, 255, 0.3);
+    overflow: auto;
+}
+.oxy{
+    width: 200px;
+    height: 60px;
+    padding: 30px;
+    margin: auto;
+    text-align: justify;
+    background-color: rgba(76, 198, 255, 0.3);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
