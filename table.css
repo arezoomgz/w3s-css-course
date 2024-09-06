@@ -1,0 +1,122 @@
+table.table1, table.table1 th, table.table1 td{
+    border: 3px solid black;
+}
+table.table1 th, table.table1 td{
+    padding: 10px;
+}
+table.table2, table.table2 th, table.table2 td{
+    border: 3px solid black;
+}
+table.table2 th, table.table2 td{
+    padding: 10px;
+}
+table.table2{
+    border-collapse:collapse
+}
+table.table3{
+    border: 3px solid black;
+}
+table.table3 th, table.table3 td{
+    padding: 10px;
+}
+table.table4{
+    height: 200px;
+    width: 100%;
+}
+table.table4, table.table4 th, table.table4 td{
+    border: 3px solid black;
+}
+table.table4{
+    border-collapse:collapse
+}
+table.table5{
+    height: 200px;
+    width: 100%;
+}
+table.table5, table.table5 th, table.table5 td{
+    border: 3px solid black;
+}
+table.table5{
+    border-collapse:collapse
+}
+table.table5 td{
+    text-align: center;
+}
+table.table6{
+    height: 200px;
+    width: 100%;
+}
+table.table6, table.table6 th, table.table6 td{
+    border: 3px solid black;
+}
+table.table6{
+    border-collapse:collapse
+}
+table.table6 th{
+    text-align: left;
+}
+table.table7{
+    height: 200px;
+    width: 100%;
+}
+table.table7, table.table7 th, table.table7 td{
+    border: 3px solid black;
+}
+table.table7{
+    border-collapse:collapse
+}
+table.table7 td{
+    text-align: center;
+    vertical-align: bottom;
+}
+table.table8{
+    height: 200px;
+    width: 100%;
+}
+table.table8 th, table.table8 td{
+    border-bottom: 3px solid black;
+}
+table.table8{
+    border-collapse:collapse
+}
+table.table8 td{
+    text-align: center;
+}
+table.table9{
+    height: 200px;
+    width: 100%;
+}
+table.table9 th, table.table9 td{
+    border-bottom: 3px solid black;
+}
+table.table9{
+    border-collapse:collapse
+}
+table.table9 td{
+    text-align: center;
+}
+table.table9 tr:hover{
+    background-color: rgba(107, 145, 250, 0.3);
+}
+table.table10{
+    height: 200px;
+    width: 100%;
+}
+table.table9 th, table.table9 td{
+    border-bottom: 3px solid black;
+}
+table.table10{
+    border-collapse:collapse
+}
+table.table10 td{
+    text-align: center;
+}
+table.table10 tr:nth-child(even){
+    background-color: rgb(145, 245, 211, 0.3);
+}
+table.table10 td:nth-child(odd), table.table10 th:nth-child(odd){
+    background-color: rgb(26, 185, 185, 0.2);
+}
+table.table10 th, table.table10 td{
+    border: 3px solid black;
+}

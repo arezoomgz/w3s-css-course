@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS position Property</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, course, examples">
+        <meta name="description" content="Examples for HTML course">
+        <meta name="author" content="arezoo">
+        <meta http-equiv="refresh" content="30">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="position.css">
+    </head>
+    <body>
+        <h1>CSS position Property</h1>
+        <p>The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).<br>Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the position value.</p>
+        <hr>
+        <h1>position: static;</h1>
+        <p>HTML elements are positioned static by default.
+        Static positioned elements are not affected by the top, bottom, left, and right properties.
+        An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page</p>
+        <div class="static1">This is an example for static.</div>
+        <hr>
+        <h1>position: relative;</h1>
+        <p>An element with position: relative; is positioned relative to its normal position.
+        Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.</p>
+        <div class="relative1">This is an example for relative.</div>
+        <hr>
+        <h1>position: fixed;</h1>
+        <p>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
+        A fixed element does not leave a gap in the page where it would normally have been located.</p>
+        <div class="fixed1">This is an example for fixed.</div>
+        <hr>
+        <h1>position: absolute;</h1>
+        <p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed). However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.</p>
+        <div class="relative2">This is an example for relative.
+            <div class="absolute1">This is an example for absolute.</div>
+        </div>
+        <hr>
+        <h1>position: sticky;</h1>
+        <p>An element with position: sticky; is positioned based on the user's scroll position.
+        A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).</p>
+        <div class="sticky1">This is an example for sticky.</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nemo enim tempora nostrum cum, quibusdam quasi at inventore, dolore cupiditate molestiae obcaecati! Quia, eius! Deleniti, quis? Voluptatum iste similique atque! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi quo facilis, voluptatum excepturi blanditiis dolore animi laborum fugiat nobis sed nulla ea deleniti, obcaecati laboriosam. Architecto illo inventore ratione blanditiis? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi possimus nostrum corporis velit nam, repellat mollitia distinctio tenetur voluptas, dolorum sequi qui esse praesentium amet veritatis quasi temporibus nisi ipsa! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore sunt autem ipsa quaerat itaque incidunt repudiandae blanditiis ullam inventore, officiis id fugit ex similique hic corrupti ab velit laudantium doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus perspiciatis eos corrupti, voluptates dicta ducimus quisquam, repudiandae veritatis perferendis, minima quod eius maiores laborum fuga vel qui nemo explicabo dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod deserunt nisi illo neque quasi porro expedita ducimus! Harum repudiandae magni nobis excepturi exercitationem ea in vero, est, eveniet aliquam nihil! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab molestiae sapiente asperiores molestias accusamus ex voluptatem, architecto earum quis. Itaque expedita quas autem atque inventore nam ea, eius consequatur labore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet voluptatum, culpa inventore a perferendis tenetur quidem provident laborum vero asperiores recusandae nemo qui numquam, blanditiis ad animi voluptate delectus possimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut neque sed quasi eius eos quam molestiae. Similique doloribus minima non, doloremque tempore cum deleniti nam laudantium cupiditate facilis ipsam blanditiis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius nemo rem architecto alias laborum accusamus quidem? Adipisci temporibus quas maxime reprehenderit beatae corporis at fugit soluta! Officia quisquam commodi ratione?</p>
+        <hr>
+        <h1>Positioning Text In an Image</h1>
+        <div class="container">
+            <img  src="images/gradi1.png" alt="gradient image" style="width: 100%;">
+            <div class="tl">top left</div>
+            <div class="tr">top right</div>
+            <div class="bl">bottom left</div>
+            <div class="br">bottom right</div>
+            <div class="cen">center</div>
+        </div><br><br><br>
+    </body>
+</html>

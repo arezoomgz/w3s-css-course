@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS Tables</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, course, examples">
+        <meta name="description" content="Examples for HTML course">
+        <meta name="author" content="arezoo">
+        <meta http-equiv="refresh" content="30">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="table.css">
+    </head>
+    <body>
+        <h1>CSS Tables</h1>
+        <p>The look of an HTML table can be greatly improved with CSS.</p>
+        <hr>
+        <h1>Table Borders</h1>
+        <p>To specify table borders in CSS, we use the border property.</p>
+        <table class="table1">
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>harry</td>
+                <td>potter</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>peter</td>
+                <td>pan</td>
+                <td>21</td>
+            </tr>
+        </table>
+        <hr>
+        <h1>Collapse Table Borders</h1>
+        <p>The border-collapse property sets whether the table borders should be collapsed into a single border.</p>
+        <table class="table2">
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>harry</td>
+                <td>potter</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>peter</td>
+                <td>pan</td>
+                <td>21</td>
+            </tr>
+        </table>
+        <p>If we only want a border around the table, we will only specify the border property for table.</p>
+        <table class="table3">
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>harry</td>
+                <td>potter</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>peter</td>
+                <td>pan</td>
+                <td>21</td>
+            </tr>
+        </table>
+        <hr>
+        <h1>Table Width and Height</h1>
+        <p>The width and height of a table are defined by the width and height properties.</p>
+        <table class="table4">
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>harry</td>
+                <td>potter</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>peter</td>
+                <td>pan</td>
+                <td>21</td>
+            </tr>
+        </table>
+        <hr>
+        <h1>Horizontal Alignment</h1>
+        <p>The text-align property sets the horizontal alignment (like left, right, or center) of the content in th or td. example below is for center align.</p>
+        <table class="table5">
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>harry</td>
+                <td>potter</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>peter</td>
+                <td>pan</td>
+                <td>21</td>
+            </tr>
+        </table>
+        <p>Example below is for left align.</p>
+        <table class="table6">
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>harry</td>
+                <td>potter</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>peter</td>
+                <td>pan</td>
+                <td>21</td>
+            </tr>
+        </table>
+        <hr>
+        <h1>Vertical Alignment</h1>
+        <p>The vertical-align property sets the vertical alignment (like top, bottom, or middle) of the content in th or td. By default, the vertical alignment of the content in a table is middle (for both th and td elements).</p>
+        <table class="table7">
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>harry</td>
+                <td>potter</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>peter</td>
+                <td>pan</td>
+                <td>21</td>
+            </tr>
+        </table>
+        <hr>
+        <h1>Horizontal Dividers</h1>
+        <p>Add the border-bottom property to th and td for horizontal dividers.</p>
+        <table class="table8">
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>harry</td>
+                <td>potter</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>peter</td>
+                <td>pan</td>
+                <td>21</td>
+            </tr>
+        </table>
+        <hr>
+        <h1>Hoverable Table</h1>
+        <p>Use the :hover selector on tr to highlight table rows on mouse over</p>
+        <table class="table9">
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>harry</td>
+                <td>potter</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>peter</td>
+                <td>pan</td>
+                <td>21</td>
+            </tr>
+        </table>
+        <hr>
+        <h1>Striped Tables</h1>
+        <p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows and for td to get the other strip</p>
+        <table class="table10">
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>harry</td>
+                <td>potter</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>peter</td>
+                <td>pan</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>emma</td>
+                <td>darcy</td>
+                <td>26</td>
+            </tr>
+        </table>
+
+    </body>
+</html>
