@@ -1,0 +1,28 @@
+a.li1:link{
+    color: plum;
+}
+a.li1:visited{
+    color: rgb(200, 156, 241);
+}
+a.li1:hover{
+    color: rgb(143, 253, 69);
+}
+a.li1:active{
+    color: rgb(250, 154, 65);
+}
+a.li1{
+    text-decoration: none;
+}
+a.li2:link, a.li2:visited{
+    color: rgb(255, 255, 255);
+    background-color: rgb(250, 115, 115);
+    border: 2px solid rgb(158, 2, 2);
+    border-radius: 10px;
+    padding: 10px;
+    width: 50px;
+    margin-left: 45%;
+    text-decoration: none;
+}
+a.li2:hover, a.li2:active{
+    background-color: rgb(228, 0, 0);
+}

@@ -1,0 +1,42 @@
+.list1{
+    list-style-type:lower-alpha;
+}
+.list2{
+    list-style-type: upper-roman;
+}
+.list4{
+    list-style-type: circle;
+}
+.list5{
+    list-style-type:square;
+}
+.list6{
+    list-style-image: url("images/gradi1little.png");
+}
+.list7{
+    list-style-position: outside;
+}
+.list8{
+    list-style-position: inside;
+}
+.list9{
+    background-color: rgb(188, 131, 241);
+    padding: 20px;
+}
+.list9 li{
+    background-color: rgb(120, 23, 211);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 5px;
+}
+.list10{
+    background-color: rgb(241, 131, 241);
+    padding: 20px;
+    list-style-type: none;
+}
+.list10 li{
+    background-color: rgb(211, 23, 195);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-left: 5px;
+}
