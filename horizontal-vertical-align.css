@@ -1,0 +1,36 @@
+.center1{
+    border: 1px solid rgb(140, 0, 255);
+    width: 60%;
+    margin: auto;
+}
+.center2{
+    border: 1px solid rgb(140, 0, 255);
+    text-align: center;
+}
+.center3{
+    display: block;
+    width: 50%;
+    margin:auto;
+}
+.center4{
+    border: 1px solid rgb(140, 0, 255);
+    position: absolute;
+    right: 10px;
+    width: 300px;
+}
+.center5{
+    border: 1px solid rgb(140, 0, 255);
+    float: right;
+    width: 300px;
+}
+.center6{
+    border: 1px solid rgb(140, 0, 255);
+    padding: 70px 20px;
+}
+.center7{
+    border: 1px solid rgb(140, 0, 255);
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
