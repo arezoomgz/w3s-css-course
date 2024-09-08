@@ -1,0 +1,32 @@
+.a{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(221, 221, 255);
+    border: 1px solid rgb(132, 0, 255);
+}
+.b{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(221, 221, 255);
+    border: 1px solid rgb(132, 0, 255);
+}
+.c{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(221, 221, 255);
+    border: 1px solid rgb(132, 0, 255);
+}
+.nav1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(222, 215, 253);
+    text-align: center;
+}
+.nav1 li{
+    display: inline-block;
+    padding: 2%;
+}
