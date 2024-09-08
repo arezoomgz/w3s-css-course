@@ -1,0 +1,12 @@
+div.dec1 p{
+    background-color: rgb(204, 255, 255);
+}
+div.ch1 > p{
+    background-color: rgb(204, 255, 255);
+}
+div.ad1 + p{
+    background-color: rgb(204, 255, 255);
+}
+div.gen1 ~ p{
+    background-color: rgb(204, 255, 255);
+}

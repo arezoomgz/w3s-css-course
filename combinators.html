@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS Combinators</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, course, examples">
+        <meta name="description" content="Examples for HTML course">
+        <meta name="author" content="arezoo">
+        <meta http-equiv="refresh" content="30">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="combinators.css">
+    </head>
+    <body>
+        <h1>CSS Combinators</h1>
+        <p>A combinator is something that explains the relationship between the selectors.<br>There are four different combinators in CSS, descendant selector (space), child selector (>), adjacent sibling selector (+) and general sibling selector (~).</p>
+        <hr>
+        <h1>Descendant Selector</h1>
+        <p>The descendant selector matches all elements that are descendants of a specified element.</p>
+        <p>para1</p>
+        <div class="dec1">
+            <p>para2</p>
+            <section><p>para3</p></section>
+            <p>para4</p>
+        </div>
+        <p>para5</p>
+        <hr>
+        <h1>Child Selector (>)</h1>
+        <p>The child selector selects all elements that are the children of a specified element.</p>
+        <p>para1</p>
+        <div class="ch1">
+            <p>para2</p>
+            <section><p>para3</p></section>
+            <p>para4</p>
+        </div>
+        <p>para5</p>
+        <hr>
+        <h1>Adjacent Sibling Selector (+)</h1>
+        <p>The adjacent sibling selector is used to select an element that is directly after another specific element.</p>
+        <p>para1</p>
+        <div class="ad1">
+            <p>para2</p>
+            <p>para3</p>
+        </div>
+        <p>para4</p>
+        <p>para5</p>
+        <div class="ad1">
+            <p>para6</p>
+            <p>para7</p>
+        </div>
+        <p>para8</p>
+        <p>para9</p>
+        <hr>
+        <h1>General Sibling Selector (~)</h1>
+        <p>The general sibling selector selects all elements that are next siblings of a specified element</p>
+        <p>para1</p>
+        <div class="gen1">
+            <p>para2</p>
+            <p>para3</p>
+        </div>
+        <p>para4</p>
+        <p>para5</p>
+        <div class="gen1">
+            <p>para6</p>
+            <p>para7</p>
+        </div>
+        <p>para8</p>
+        <p>para9</p>
+        <hr>
+    </body>
+</html>
