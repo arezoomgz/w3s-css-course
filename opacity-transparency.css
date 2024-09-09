@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.dimg{
+    width: 33%;
+    padding: 1%;
+    float: left;
+}
+.clearfix1::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.dog1:hover, .dog2:hover, .dog3:hover{
+    opacity: 0.5;
+}
+.dimgg{
+    width: 33%;
+    padding: 1%;
+    float: left;
+    opacity: 0.5;
+}
+.clearfix2::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.dog4:hover, .dog5:hover, .dog6:hover{
+    opacity: 1;
+}
