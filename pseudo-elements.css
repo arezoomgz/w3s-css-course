@@ -1,0 +1,37 @@
+.div1{
+    width: 400px;
+    margin: auto;
+    text-align: justify;
+    border: 1px solid blue;
+    padding: 10px;
+}
+.div1::first-line{
+    color: rgb(132, 0, 255);
+}
+.div2{
+    width: 400px;
+    margin: auto;
+    text-align: justify;
+    border: 1px solid blue;
+    padding: 10px;
+}
+.div2::first-letter{
+    color: rgb(132, 0, 255);
+    font-size:30px;
+    font-weight: 300;
+}
+h5::before{
+    content: url("images/gradi1little.png");
+}
+h4::after{
+    content: url("images/gradi1little.png");
+}
+span::before{
+    content: url("images/gradi1little.png");
+}
+::marker{
+    color: rgb(11, 228, 76);
+}
+.para::selection{
+    background-color: aquamarine;
+}
