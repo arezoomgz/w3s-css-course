@@ -1,0 +1,104 @@
+ul.navi2{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul.navi3{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul.navi3 li a{
+    background-color: rgb(198, 221, 255);
+    display: block;
+    width: 60px;
+    text-decoration: none;
+}
+ul.navi4{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul.navi4 li a{
+    background-color: rgb(198, 221, 255);
+    display: block;
+    width: 80px;
+    text-decoration: none;
+    padding: 10px 12px;
+    font-weight: bolder;
+}
+ul.navi4 li a:hover{
+    background-color: rgb(166, 198, 245);
+}
+ul.navi5{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul.navi5 li a{
+    background-color: rgb(61, 135, 247);
+    display: block;
+    width: 80px;
+    text-decoration: none;
+    padding: 10px 12px;
+    font-weight: bolder;
+    color: azure;
+}
+ul.navi5 li a:hover:not(.active5){
+    background-color: rgb(187, 214, 255);
+}
+ul.navi5 li a.active5{
+    background-color: rgb(1, 59, 145);
+}
+ul.navi6{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    border: 5px solid rgb(0, 24, 59);
+}
+ul.navi6 li a{
+    background-color: rgb(61, 135, 247);
+    display: block;
+    text-decoration: none;
+    padding: 10px 12px;
+    font-weight: bolder;
+    color: azure;
+    text-align: center;
+}
+ul.navi6 li a:hover:not(.active6){
+    background-color: rgb(187, 214, 255);
+}
+ul.navi6 li a.active6{
+    background-color: rgb(1, 59, 145);
+}
+ul.navi6 li{
+    border-bottom: 5px solid rgb(0, 24, 59);
+}
+ul.navi6 li:last-child{
+    border-bottom: none;
+}
+ul.navi7{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: rgb(61, 135, 247);
+}
+ul.navi7 li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 12px;
+    font-weight: bolder;
+    color: azure;
+}
+ul.navi7 li a:hover:not(.active7){
+    background-color: rgb(187, 214, 255);
+}
+ul.navi7 li a.active7{
+    background-color: rgb(1, 59, 145);
+}
