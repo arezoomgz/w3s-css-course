@@ -1,0 +1,234 @@
+ul.navi1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.navi1 li{
+    display: inline;
+}
+ul.navi1 li a{
+    padding: 5px;
+}
+ul.navi2{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+ul.navi2 li{
+    float: left;
+}
+ul.navi2 li a{
+    display: block;
+    padding: 5px;
+    background-color: rgb(231, 227, 253);
+}
+ul.navi3{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(231, 227, 253);
+}
+ul.navi3 li{
+    float: left;
+}
+ul.navi3 li a{
+    display: block;
+    padding: 5px;
+}
+ul.navi4{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(168, 152, 255);
+}
+ul.navi4 li{
+    float: left;
+}
+ul.navi4 li a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+}
+ul.navi4 a:hover{
+    background-color: rgb(182, 170, 250);
+} 
+ul.navi5{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(168, 152, 255);
+}
+ul.navi5 li{
+    float: left;
+}
+ul.navi5 li a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+}
+ul.navi5 a:hover:not(.active5){
+    background-color: rgb(182, 170, 250);
+}
+a.active5{
+    background-color: rgb(112, 87, 255);
+}
+ul.navi6{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(168, 152, 255);
+}
+ul.navi6 li{
+    float: left;
+}
+ul.navi6 li a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+}
+ul.navi6 a:hover:not(.active6){
+    background-color: rgb(182, 170, 250);
+}
+a.active6{
+    background-color: rgb(112, 87, 255);
+}
+ul.navi7{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(168, 152, 255);
+}
+ul.navi7 li{
+    float: left;
+    border-right: 1px solid rgb(204, 203, 255);
+}
+ul.navi7 li a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+
+}
+ul.navi7 li:last-child{
+    border-right: none;
+}
+ul.navi7 a:hover:not(.active7){
+    background-color: rgb(182, 170, 250);
+}
+a.active7{
+    background-color: rgb(112, 87, 255);
+}
+ul.navi8{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(143, 124, 252);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+ul.navi8 li{
+    float: left;
+    border-right: 1px solid rgb(204, 203, 255);
+}
+ul.navi8 li a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+
+}
+ul.navi8 li:last-child{
+    border-right: none;
+}
+ul.navi8 a:hover:not(.active8){
+    background-color: rgb(182, 170, 250);
+}
+a.active8{
+    background-color: rgb(101, 75, 248);
+}
+ul.navi9{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(143, 124, 252);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+ul.navi9 li{
+    float: left;
+    border-right: 1px solid rgb(204, 203, 255);
+}
+ul.navi9 li a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+
+}
+ul.navi9 li:last-child{
+    border-right: none;
+}
+ul.navi9 a:hover:not(.active9){
+    background-color: rgb(182, 170, 250);
+}
+a.active9{
+    background-color: rgb(101, 75, 248);
+}
+ul.navi10{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.navi10 li{
+    float: left;
+}
+ul.navi10 li a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    background-color: rgb(143, 124, 252);
+}
+a.active10{
+    background-color: rgb(101, 75, 248);
+}
+.dropdcontent{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 89px;
+}
+.dropdcontent a{
+    text-decoration: none;
+    text-align: center;
+}
+.dropd:hover .dropdcontent{
+    display: block;
+}
+.navi10 li a:hover{
+    background-color: rgb(171, 162, 255);
+}
