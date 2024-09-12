@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+ul.topnav{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    background-color: rgb(129, 61, 255);
+}
+ul.topnav li{
+    float: left;
+}
+ul.topnav li a{
+    display: block;
+    padding: 10px 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: large;
+    text-align: center;
+}
+ul.topnav li a:hover:not(.active){
+    background-color:rgb(158, 106, 255);
+}
+ul.topnav li a.active{
+    background-color: rgb(89, 16, 226);;
+}
+ul.topnav li.fright{
+    float: right;
+}
+.content{
+    margin: 0 10px 10px 10px;
+}
+@media screen and (max-width:600px) {
+    ul.topnav li , ul.topnav li.fright{
+        float: none;
+    }
+}
