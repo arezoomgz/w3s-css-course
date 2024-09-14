@@ -1,0 +1,35 @@
+a.ex1[target]{
+    background-color: rgb(220, 253, 219);
+}
+a.ex2[target="_blank"]{
+    background-color: rgb(220, 253, 219);
+}
+*{
+    box-sizing: border-box;
+}
+img.ex3[title~="dog"]{
+    border: 5px solid rgb(220, 253, 219);
+}
+[class|="top1"]{
+    background-color: rgb(220, 253, 219);
+}
+[class^="top2"]{
+    background-color: rgb(220, 253, 219);
+}
+[class$="top3"]{
+    background-color: rgb(220, 253, 219);
+}
+[class*="top3"]{
+    background-color: rgb(220, 253, 219);
+}
+input[type="text"]{
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+    width: 300px;
+}
+input[type="button"]{
+    margin: 10px 0;
+    padding: 5px;
+    display: block;
+}
