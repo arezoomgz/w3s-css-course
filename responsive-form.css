@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+.ex1 input[type=text], select{
+    width: 100%;
+    padding: 14px 10px;
+    margin: 8px 0;
+    border: 1px solid blue;
+    border-radius: 8px;
+    display: inline-block;
+}
+.ex1 input[type=submit]{
+    width: 20%;
+    padding: 14px 12px;
+    margin: 8px 0;
+    border: 1px solid blue;
+    background-color: rgb(148, 148, 255);
+    color: white;
+    border-radius: 8px;
+    display: block;
+    float: right;
+}
+.ex1 input[type=submit]:hover{
+    background-color: rgb(121, 48, 255);
+}
+.ex1{
+    background-color: rgb(237, 239, 255);
+    padding: 15px;
+    border-radius: 8px;
+}
+.ex1 textarea{
+    width: 100%;
+    padding: 14px 10px;
+    margin: 8px 0;
+    border: 1px solid blue;
+    border-radius: 8px;
+    resize: none;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.col-25{
+    width: 25%;
+    float: left;
+}
+.col-75{
+    width: 75%;
+    float: left;
+}
+@media screen and (max-width:600px) {
+    .col-25,.col-75{
+        width: 100%;
+    }
+}
