@@ -104,7 +104,7 @@
     border-radius: 8px;
 }
 .ex11 input[type=button], .ex11 input[type=reset], .ex11 input[type=submit]{
-    margin: 8px 0;
+    margin: 8px 8px;
     padding: 14px 10px;
     background-color: rgb(132, 89, 250);
     color: white;
