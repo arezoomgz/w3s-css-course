@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+.ex1 input[type=text], select{
+    width: 100%;
+    padding: 14px 10px;
+    margin: 8px 0;
+    border: 1px solid blue;
+    border-radius: 8px;
+    display: inline-block;
+}
+.ex1 input[type=submit]{
+    width: 20%;
+    padding: 14px 12px;
+    margin: 8px 0;
+    border: 1px solid blue;
+    background-color: rgb(148, 148, 255);
+    color: white;
+    border-radius: 8px;
+    display: block;
+}
+.ex1 input[type=submit]:hover{
+    background-color: rgb(121, 48, 255);
+}
+.ex1{
+    background-color: rgb(237, 239, 255);
+    padding: 15px;
+    border-radius: 8px;
+}
+.ex2 input{
+    width: 100%;
+}
+.ex3 input{
+    width: 100%;
+    margin: 8px 0;
+    padding: 14px 10px;
+}
+.ex4 input{
+    width: 100%;
+    margin: 8px 0;
+    padding: 14px 10px;
+    border: 1px solid blue;
+    border-radius: 8px;
+}
+.ex5 input{
+    width: 100%;
+    margin: 8px 0;
+    padding: 14px 10px;
+    border:none;
+    border-bottom: 1px solid blue;
+}
+.ex6 input[type=text]{
+    width: 100%;
+    margin: 8px 0;
+    padding: 14px 10px;
+    background-color: rgb(132, 89, 250);
+    color: white;
+    border: 1px solid blue;
+    border-radius: 8px;
+}
+.ex7 input[type=text]{
+    width: 100%;
+    margin: 8px 0;
+    padding: 14px 10px;
+    background-color: rgb(132, 89, 250);
+    color: white;
+    border: 1px solid blue;
+    border-radius: 8px;
+}
+.ex7 input[type=text]:focus{
+    background-color: rgb(71, 8, 241);
+}
+.ex8 input[type=text]{
+    width: 100%;
+    margin: 8px 0;
+    padding: 14px 45px 10px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    background-image: url("images/search-s.png");
+    background-repeat: no-repeat;
+    background-position: 10px 5px;
+}
+.ex9 input[type=text]{
+    width: 150px;
+    margin: 8px 0;
+    padding: 14px 45px 10px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    background-image: url("images/search-s.png");
+    background-repeat: no-repeat;
+    background-position: 10px 5px;
+    transition: width 0.5s ease-in-out;
+}
+.ex9 input[type=text]:hover{
+    width: 100%;
+}
+.ex10 select{
+    width: 100%;
+    margin: 8px 0;
+    padding: 14px 10px;
+    background-color: rgb(132, 89, 250);
+    color: white;
+    border: 1px solid blue;
+    border-radius: 8px;
+}
+.ex11 input[type=button], .ex11 input[type=reset], .ex11 input[type=submit]{
+    margin: 8px 0;
+    padding: 14px 10px;
+    background-color: rgb(132, 89, 250);
+    color: white;
+    border: 1px solid blue;
+    border-radius: 8px;
+}
+.ex12 textarea{
+    margin: 8px 0;
+    padding: 14px 10px;
+    width: 100%;
+    height: 150px;
+    resize: none;
+    background-color: rgb(241, 235, 255);
+    color: white;
+    border: 1px solid blue;
+    border-radius: 8px;
+}

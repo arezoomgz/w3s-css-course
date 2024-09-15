@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS Forms</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, course, examples">
+        <meta name="description" content="Examples for HTML course">
+        <meta name="author" content="arezoo">
+        <meta http-equiv="refresh" content="30">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="forms.css">
+    </head>
+    <body>
+        <h1>CSS Forms</h1>
+        <p>The look of an HTML form can be greatly improved with CSS.</p>
+        <div class="ex1">
+            <form>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name...">
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+        <br>
+        <hr>
+        <h1>Styling Input Fields</h1>
+        <p>Use the width property to determine the width of the input field.</p>
+        <div class="ex2">
+            <form>
+                <label for="fname">First name:</label><br><br>
+                <input type="text" id="fname" name="firstname" placeholder="Your name...">
+            </form>
+        </div>
+        <br>
+        <hr>
+        <h1>Padded Inputs</h1>
+        <p>Use the padding property to add space inside the text field. When you have many inputs after each other, you might also want to add some margin, to add more space outside of them.</p>
+        <div class="ex3">
+            <form>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name...">
+            </form>
+        </div>
+        <br>
+        <hr>
+        <h1>Bordered Inputs</h1>
+        <p>Use the border property to change the border size and color, and use the border-radius property to add rounded corners.</p>
+        <div class="ex4">
+            <form>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name...">
+            </form>
+        </div>
+        <p>If you only want a bottom border, use the border-bottom property.</p>
+        <div class="ex5">
+            <form>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name...">
+            </form>
+        </div>
+        <br>
+        <hr>
+        <h1>Colored Inputs</h1>
+        <p>Use the background-color property to add a background color to the input, and the color property to change the text color.</p>
+        <div class="ex6">
+            <form>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="firstname" value="John">
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lastname" value="Doe">
+            </form>
+        </div>
+        <br>
+        <hr>
+        <h1>Focused Inputs</h1>
+        <p>By default, some browsers will add a blue outline around the input when it gets focus (clicked on). You can remove this behavior by adding outline: none; to the input. Use the :focus selector to do something with the input field when it gets focus</p>
+        <div class="ex7">
+            <form>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="firstname" value="John">
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lastname" value="Doe">
+            </form>
+        </div>
+        <br>
+        <hr>
+        <h1>Input with icon/image</h1>
+        <p>If you want an icon inside the input, use the background-image property and position it with the background-position property. Also notice that we add a large left padding to reserve the space of the icon.</p>
+        <div class="ex8">
+            <form>
+                <input type="text" id="fname" name="firstname" placeholder="Search...">
+            </form>
+        </div>
+        <br>
+        <hr>
+        <h1>Animated Search Input</h1>
+        <p>In this example we use the CSS transition property to animate the width of the search input when it gets focus. You will learn more about the transition property later, in our CSS Transitions chapter.</p>
+        <div class="ex9">
+            <form>
+                <input type="text" id="fname" name="firstname" placeholder="Search...">
+            </form>
+        </div>
+        <br>
+        <hr>
+        <h1>Styling Select Menus</h1>
+        <div class="ex10">
+            <form>
+                <select name="country" id="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+            </form>
+        </div>
+        <br>
+        <hr>
+        <h1>Styling Input Buttons</h1>
+        <div class="ex11">
+            <form>
+                <input type="button" value="button">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+        <br>
+        <hr>
+        <h1>Styling Textareas</h1>
+        <div class="ex12">
+            <form>
+                <textarea placeholder="Write here..."></textarea>
+            </form>
+        </div>
+        <br>
+        <hr>
+    </body>
+</html>
