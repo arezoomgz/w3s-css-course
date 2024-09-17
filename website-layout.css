@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+}
+p{
+    text-align: justify;
+}
+/* style the example for header1 */
+.header1{
+    background-color: rgb(182, 137, 255);
+    padding: 10px;
+    text-align: center;
+}
+/* style the header2 */
+.header2{
+    background-color: rgb(182, 137, 255);
+    padding: 10px;
+    text-align: center;
+}
+/* style the navigation bar */
+.topnav2{
+    background-color: rgb(215, 190, 255);
+    overflow: hidden;
+}
+/* style the navigation bar links */
+.topnav2 a{
+    display: block;
+    padding: 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+/* change the background color of topnav2 link on hover */
+.topnav2 a:hover{
+    background-color:  rgb(228, 212, 255);
+}
+/* style the header3 */
+.header3{
+    background-color: rgb(182, 137, 255);
+    padding: 10px;
+    text-align: center;
+}
+/* style the navigation bar3 */
+.topnav3{
+    background-color: rgb(215, 190, 255);
+    overflow: hidden;
+}
+/* style the navigation bar3 links */
+.topnav3 a{
+    display: block;
+    padding: 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+/* change the background color of topnav3 link on hover */
+.topnav3 a:hover{
+    background-color: rgb(228, 212, 255);
+}
+/* creates 3 equal columns that float next to each other */
+.column3{
+    width: 33%;
+    float: left;
+    padding: 10px;
+}
+/* clears the floats after the columns */
+.row3::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/* Responsive design - Makes the culomns to be on top on each other instead of next to each other in the small screens (width of 600px or smaller) */
+@media screen and (max-width:600px) {
+    .column3{
+        width: 100%;
+    }
+}
+/* style the header4 */
+.header4{
+    background-color: rgb(182, 137, 255);
+    padding: 10px;
+    text-align: center;
+}
+/* style the navigation bar4 */
+.topnav4{
+    background-color: rgb(215, 190, 255);
+    overflow: hidden;
+}
+/* style the navigation bar4 links */
+.topnav4 a{
+    display: block;
+    padding: 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+/* change the background color of topnav4 link on hover */
+.topnav3 a:hover{
+    background-color: rgb(228, 212, 255);
+}
+/* creates 3 unequal columns that float next to each other */
+.column4.main4{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+.column4.side4{
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+/* clears the floats after the columns */
+.row4::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/* Responsive design - Makes the culomns to be on top on each other instead of next to each other in the small screens (width of 600px or smaller) */
+@media screen and (max-width:600px) {
+    .column4.side4, .column4.main4 {
+        width: 100%;
+    }
+}
+/* style the header5 */
+.header5{
+    background-color: rgb(182, 137, 255);
+    padding: 10px;
+    text-align: center;
+}
+/* style the navigation bar5 */
+.topnav5{
+    background-color: rgb(215, 190, 255);
+    overflow: hidden;
+}
+/* style the navigation bar5 links */
+.topnav5 a{
+    display: block;
+    padding: 10px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+/* change the background color of topnav5 link on hover */
+.topnav5 a:hover{
+    background-color: rgb(228, 212, 255);
+}
+/* creates 3 unequal columns that float next to each other */
+.column5.main5{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+.column5.side5{
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+/* clears the floats after the columns */
+.row5::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/* Responsive design - Makes the culomns to be on top on each other instead of next to each other in the small screens (width of 600px or smaller) */
+@media screen and (max-width:600px) {
+    .column5.side5, .column5.main5 {
+        width: 100%;
+    }
+}
+/* style the footer5 */
+.footer5{
+    background-color: rgb(182, 137, 255);
+    padding: 10px;
+    text-align: center;
+}
