@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS Border Images</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, course, examples">
+        <meta name="description" content="Examples for HTML course">
+        <meta name="author" content="arezoo">
+        <meta http-equiv="refresh" content="30">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="border-images.css">
+    </head>
+    <body>
+        <h1>CSS Border Images</h1>
+        <p>With the CSS border-image property, you can set an image to be used as the border around an element. Here, the middle sections of the image are repeated to create the border:</p>
+        <div class="example1">
+            <p>border-image: url(border.png) 30 round;</p>
+        </div>
+        <p>Here is the original image:</p>
+        <img src="images/bord.png" alt="border image">
+        <p>Here, the middle sections of the image are stretched to create the border:</p>
+        <div class="example2">
+            <p>border-image: url(border.png) 30 stretch;</p>
+        </div>
+        <p>Different slice values completely changes the look of the border.</p>
+        <div class="example3">
+            <p>border-image: url(images/bord.png) 19% round;</p>
+        </div>
+        <br>
+        <div class="example4">
+            <p>border-image: url(images/bord.png) 50% round;</p>
+        </div>
+    </body>
+</html>

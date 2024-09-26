@@ -1,0 +1,20 @@
+.example1{
+    border: 10px solid transparent;
+    border-image: url(images/bord.png) 30 round;
+    padding: 10px;
+}
+.example2{
+    border: 10px solid transparent;
+    border-image: url(images/bord.png) 30 stretch;
+    padding: 10px;
+}
+.example3{
+    border: 10px solid transparent;
+    border-image: url(images/bord.png) 19% round;
+    padding: 10px;
+}
+.example4{
+    border: 10px solid transparent;
+    border-image: url(images/bord.png) 50% round;
+    padding: 10px;
+}
