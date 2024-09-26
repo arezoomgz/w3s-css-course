@@ -1,0 +1,19 @@
+.example1{
+    width: calc(100% - 100px);
+    margin: auto;
+    background-color: rgb(204, 216, 255);
+    padding: 10px;
+    border-radius: 5px;
+}
+.example2{
+    width: max(50% ,400px);
+    background-color: rgb(204, 216, 255);
+    padding: 10px;
+    border-radius: 5px;
+}
+.example3{
+    width: min(50% ,400px);
+    background-color: rgb(204, 216, 255);
+    padding: 10px;
+    border-radius: 5px;
+}
