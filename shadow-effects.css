@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+.example1{
+    text-shadow: 2px 2px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+}
+.example2{
+    text-shadow: 2px 2px rgb(255, 0, 212);
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+}
+.example3{
+    text-shadow: 2px 2px 5px rgb(255, 0, 212);
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+}
+.example4{
+    text-shadow: 0 0 10px rgb(255, 0, 212);
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px; 
+    color: white;
+}
+.example5{
+    text-shadow: 0 0 4px blue , 0 0 10px red;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px; 
+}
+.example6{
+    text-shadow: -1px 0 rgb(255, 0, 212) , 1px 0 rgb(255, 0, 212), 0 1px rgb(255, 0, 212), 0 -1px rgb(255, 0, 212) ;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px; 
+}
+.example7{
+    background-color: rgb(221, 202, 255);
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 0 0 20px 0;
+    box-shadow: 5px 5px;
+}
+.example8{
+    background-color: rgb(221, 202, 255);
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 0 0 20px 0;
+    box-shadow: 5px 5px rgb(131, 27, 179);
+}
+.example9{
+    background-color: rgb(221, 202, 255);
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 0 0 20px 0;
+    box-shadow: 5px 5px 5px rgb(131, 27, 179);
+}
+.example10{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 0 0 20px 0;
+    box-shadow: 5px 5px 5px red, 10px 10px 5px blue , 15px 15px 5px yellow , 20px 20px 5px green , 25px 25px 5px violet;
+}
+.card1{
+    border-radius: 8px;
+    width: 200px;
+    margin: 0 0 20px 0;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0 ,0.5);
+}
+.topc1{
+    border-radius: 8px 8px 0 0;
+    padding: 40px;
+    font-size: 30px;
+    background-color: blueviolet;
+}
+.bottomc1{
+    padding: 10px;
+}
+.card2{
+    border-radius: 8px;
+    width: 200px;
+    margin: 0 0 20px 0;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0 ,0.5);
+}
+.topc2 img{
+    border-radius: 8px 8px 0 0;
+}
+.bottomc2{
+    padding: 10px;
+}
