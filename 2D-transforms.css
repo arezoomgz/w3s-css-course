@@ -1,0 +1,118 @@
+.ex1{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 100px;
+    background-color: rgb(221, 221, 255);
+    border-radius: 4px;
+    transform: translate(100px,50px);
+}
+.ex2{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin: 100px 0 100px 10px;
+    margin-bottom: 100px;
+    background-color: rgb(221, 221, 255);
+    border-radius: 4px;
+    transform: rotate(20deg);
+}
+.ex3{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin: 100px 0 100px 10px;
+    margin-bottom: 100px;
+    background-color: rgb(221, 221, 255);
+    border-radius: 4px;
+    transform: rotate(-20deg);
+}
+.ex4{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin: 100px 0 100px 10px;
+    margin-bottom: 100px;
+    background-color: rgb(221, 221, 255);
+    border-radius: 4px;
+    transform: scale(0.5,0.7);
+}
+.ex5{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin: 100px 0 100px 200px;
+    margin-bottom: 100px;
+    background-color: rgb(221, 221, 255);
+    border-radius: 4px;
+    transform: scaleX(2);
+}
+.ex6{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin: 100px 0 100px 10px;
+    margin-bottom: 100px;
+    background-color: rgb(221, 221, 255);
+    border-radius: 4px;
+    transform: scaleY(2);
+}
+.ex7{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin: 100px 0 100px 10px;
+    margin-bottom: 100px;
+    background-color: rgb(221, 221, 255);
+    border-radius: 4px;
+    transform: skewX(20deg);
+}
+.ex8{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin: 100px 0 100px 10px;
+    margin-bottom: 100px;
+    background-color: rgb(221, 221, 255);
+    border-radius: 4px;
+    transform: skewY(20deg);
+}
+.ex9{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin: 100px 0 100px 10px;
+    margin-bottom: 100px;
+    background-color: rgb(221, 221, 255);
+    border-radius: 4px;
+    transform: skew(15deg,25deg);
+}
+.ex10{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin: 100px 0 100px 10px;
+    margin-bottom: 100px;
+    background-color: rgb(221, 221, 255);
+    border-radius: 4px;
+}
+.ex11{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin: 100px 0 100px 10px;
+    margin-bottom: 100px;
+    background-color: rgb(221, 221, 255);
+    border-radius: 4px;
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+.ex12{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin: 100px 0 100px 10px;
+    margin-bottom: 100px;
+    background-color: rgb(221, 221, 255);
+    border-radius: 4px;
+    transform: matrix(1, 0, 0.5, 1, 150, 0);
+}
