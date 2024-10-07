@@ -1,0 +1,12 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(font/Dancing_Script/static/DancingScript-Regular.ttf);
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(font/Dancing_Script/static/DancingScript-Regular.ttf);
+    font-weight: bold;
+}
+#ex1{
+    font-family: myFirstFont;
+}
