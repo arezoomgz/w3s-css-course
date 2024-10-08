@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+div{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: rgb(225, 214, 255);
+}
+.ex1{
+    transition: width 2s;
+}
+.ex1:hover{
+    width: 300px;
+}
+.ex2{
+    transition: width 2s, height 4s;
+}
+.ex2:hover{
+    width: 300px;
+    height: 300px;
+}
+.ex3{
+    transition: width 2s;
+    transition-timing-function: linear;
+}
+.ex3:hover{
+    width: 300px;
+}
+.ex4{
+    transition: width 2s;
+    transition-timing-function: ease;
+}
+.ex4:hover{
+    width: 300px;
+}
+.ex5{
+    transition: width 2s;
+    transition-timing-function: ease-in;
+}
+.ex5:hover{
+    width: 300px;
+}
+.ex6{
+    transition: width 2s;
+    transition-timing-function: ease-out;
+}
+.ex6:hover{
+    width: 300px;
+}
+.ex7{
+    transition: width 2s;
+    transition-timing-function: ease-in-out;
+}
+.ex7:hover{
+    width: 300px;
+}
+.ex8{
+    transition: width 2s;
+    transition-delay: 1s;
+}
+.ex8:hover{
+    width: 300px;
+}
+.ex9{
+    transition: width 2s, height 2s, transform 2s;
+    margin-bottom: 300px;
+}
+.ex9:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
