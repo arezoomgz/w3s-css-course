@@ -1,0 +1,303 @@
+.ex1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: example1;
+    animation-duration: 4s;
+}
+@keyframes example1{
+    from{background-color: blue;}
+    to{background-color: magenta;}
+}
+.ex2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: example2;
+    animation-duration: 4s;
+}
+@keyframes example2{
+    0%{background-color: blue;}
+    25%{background-color: aqua;}
+    50%{background-color: mediumseagreen;}
+    75%{background-color: magenta;}
+    100%{background-color: yellow;}
+}
+.ex3{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 350px;
+    position: relative;
+    background-color: blue;
+    animation-name: example3;
+    animation-duration: 4s;
+}
+@keyframes example3{
+    0%{background-color: blue; top: 0px; left: 0px;}
+    25%{background-color: green; top: 0px; left: 300px;}
+    50%{background-color: yellow; top: 300px; left: 300px;}
+    75%{background-color: magenta; top: 300px; left: 0px;}
+    100%{background-color: blue; top: 0px; left: 0px;}
+}
+.ex4{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 350px;
+    position: relative;
+    background-color: blue;
+    animation-name: example4;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+@keyframes example4{
+    0%{background-color: blue; top: 0px; left: 0px;}
+    25%{background-color: green; top: 0px; left: 300px;}
+    50%{background-color: yellow; top: 300px; left: 300px;}
+    75%{background-color: magenta; top: 300px; left: 0px;}
+    100%{background-color: blue; top: 0px; left: 0px;}
+}
+.ex5{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 350px;
+    position: relative;
+    background-color: blue;
+    animation-name: example5;
+    animation-duration: 4s;
+    animation-delay: -2s;
+}
+@keyframes example5{
+    0%{background-color: blue; top: 0px; left: 0px;}
+    25%{background-color: green; top: 0px; left: 300px;}
+    50%{background-color: yellow; top: 300px; left: 300px;}
+    75%{background-color: magenta; top: 300px; left: 0px;}
+    100%{background-color: blue; top: 0px; left: 0px;}
+}
+.ex6{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 350px;
+    position: relative;
+    background-color: blue;
+    animation-name: example6;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+@keyframes example6{
+    0%{background-color: blue; top: 0px; left: 0px;}
+    25%{background-color: green; top: 0px; left: 300px;}
+    50%{background-color: yellow; top: 300px; left: 300px;}
+    75%{background-color: magenta; top: 300px; left: 0px;}
+    100%{background-color: blue; top: 0px; left: 0px;}
+}
+.ex7{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 350px;
+    position: relative;
+    background-color: blue;
+    animation-name: example7;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example7{
+    0%{background-color: blue; top: 0px; left: 0px;}
+    25%{background-color: green; top: 0px; left: 300px;}
+    50%{background-color: yellow; top: 300px; left: 300px;}
+    75%{background-color: magenta; top: 300px; left: 0px;}
+    100%{background-color: blue; top: 0px; left: 0px;}
+}
+.ex8{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 350px;
+    position: relative;
+    background-color: blue;
+    animation-name: example8;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes example8{
+    0%{background-color: blue; top: 0px; left: 0px;}
+    25%{background-color: green; top: 0px; left: 300px;}
+    50%{background-color: yellow; top: 300px; left: 300px;}
+    75%{background-color: magenta; top: 300px; left: 0px;}
+    100%{background-color: blue; top: 0px; left: 0px;}
+}
+.ex9{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 350px;
+    position: relative;
+    background-color: blue;
+    animation-name: example9;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes example9{
+    0%{background-color: blue; top: 0px; left: 0px;}
+    25%{background-color: green; top: 0px; left: 300px;}
+    50%{background-color: yellow; top: 300px; left: 300px;}
+    75%{background-color: magenta; top: 300px; left: 0px;}
+    100%{background-color: blue; top: 0px; left: 0px;}
+}
+.ex10{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 350px;
+    position: relative;
+    background-color: blue;
+    animation-name: example10;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes example10{
+    0%{background-color: blue; top: 0px; left: 0px;}
+    25%{background-color: green; top: 0px; left: 300px;}
+    50%{background-color: yellow; top: 300px; left: 300px;}
+    75%{background-color: magenta; top: 300px; left: 0px;}
+    100%{background-color: blue; top: 0px; left: 0px;}
+}
+.ex11{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 350px;
+    position: relative;
+    background-color: blue;
+    animation-name: example11;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes example11{
+    0%{background-color: blue; top: 0px; left: 0px;}
+    25%{background-color: green; top: 0px; left: 300px;}
+    50%{background-color: yellow; top: 300px; left: 300px;}
+    75%{background-color: magenta; top: 300px; left: 0px;}
+    100%{background-color: blue; top: 0px; left: 0px;}
+}
+.ex12{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: blue;
+    animation-name: example12;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes example12{
+    0%{background-color: blue; left: 0px;}
+    100%{left: 300px;}
+}
+.ex13{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: blue;
+    animation-name: example13;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+@keyframes example13{
+    0%{background-color: blue; left: 0px;}
+    100%{left: 300px;}
+}
+.ex14{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: blue;
+    animation-name: example14;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+@keyframes example14{
+    0%{background-color: blue; left: 0px;}
+    100%{left: 300px;}
+}
+.ex15{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: blue;
+    animation-name: example15;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+@keyframes example15{
+    0%{background-color: blue; left: 0px;}
+    100%{left: 300px;}
+}
+.ex16{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: blue;
+    animation-name: example16;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes example16{
+    0%{background-color: blue; left: 0px;}
+    100%{left: 300px;}
+}
+.ex17{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: blue;
+    animation-name: example17;
+    animation-duration: 4s;
+    animation-fill-mode: none;
+}
+@keyframes example17{
+    0%{background-color: blue; top: 0px; left: 0px;}
+    100%{background-color: yellow; top: 0px; left: 300px;}
+}
+.ex18{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: blue;
+    animation-name: example18;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes example18{
+    0%{background-color: blue; top: 0px; left: 0px;}
+    100%{background-color: yellow; top: 0px; left: 300px;}
+}
+.ex19{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: blue;
+    animation-name: example19;
+    animation-duration: 4s;
+    animation-fill-mode: backwards;
+}
+@keyframes example19{
+    0%{ top: 0px; left: 0px;}
+    100%{background-color: yellow; top: 0px; left: 300px;}
+}
+.ex20{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: blue;
+    animation-name: example20;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+}
+@keyframes example20{
+    0%{ top: 0px; left: 0px;}
+    100%{background-color: yellow; top: 0px; left: 300px;}
+}
