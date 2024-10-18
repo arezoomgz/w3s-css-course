@@ -1,0 +1,506 @@
+*{
+    box-sizing: border-box;
+}
+.clear:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.ex1{
+    float: left;
+    width: 25%;
+    height: auto;
+    margin: 1% 24% 1% 1%;
+    border-radius: 20px;
+}
+.ex2{
+    float: left;
+    width: 25%;
+    height: auto;
+    margin: 1% 1% 1% 24%;
+    border-radius: 50%;
+}
+.ex3{
+    width: 150px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.ex4{
+    width: 150px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.thdiv1{
+    float: left;
+    margin: 1% 16% 1% 1%;
+    text-align: center;
+}
+.thdiv2{
+    float: left;
+    margin: 1% 1% 1% 16%;
+    text-align: center;
+}
+.ex5{
+    width: 100%;
+    height: 300px;
+}
+.ex6{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+.card1, .card2{
+    float: left;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+    text-align: center;
+}
+.ex7, .ex8{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.ex9, .ex10, .ex11, .ex12, .ex13, .ex14, .ex15, .ex16, .ex17, .ex18, .ex19{
+    float: left;
+    width: 33%;
+}
+.ex10{
+    filter: blur(2px);
+}
+.ex11{
+    filter: brightness(200%);
+}
+.ex12{
+    filter: contrast(200%);
+}
+.ex13{
+    filter: grayscale(100%);
+}
+.ex14{
+    filter: hue-rotate(180deg);
+}
+.ex15{
+    filter: saturate(200%);
+}
+.ex16{
+    filter: opacity(50%);
+}
+.ex17{
+    filter: invert(100%);
+}
+.ex18{
+    filter: sepia(100%);
+}
+.ex19{
+    filter: drop-shadow(2px 2px 5px black);
+}
+.container20{
+    position: relative;
+    width: 31%;
+
+}
+.ex20{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.overlay20{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(47, 211, 129);
+    transition: 0.5s ease;
+    opacity: 0;
+    border-radius: 10px;
+}
+.text20{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container20:hover .overlay20{
+    opacity: 1;
+}
+.container21{
+    position: relative;
+    width: 31%;
+}
+.ex21{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.overlay21{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(47, 211, 129);
+    transition: 0.5s ease;
+    opacity: 0;
+    border-radius: 10px;
+}
+.text21{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(8, 146, 100);
+    border-radius: 10px;
+}
+.container21:hover .overlay21{
+    opacity: 1;
+}
+.container22{
+    position: relative;
+    width: 31%;
+}
+.ex22{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: 0.5 ease;
+}
+.overlay22{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: 0.5s ease;
+    opacity: 0;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.text22{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(8, 146, 100);
+    border-radius: 10px;
+}
+.container22:hover .overlay22{
+    opacity: 1;
+}
+.container22:hover .ex22{
+    opacity: 0.3;
+}
+.container23{
+    position: relative;
+    width: 31%;
+}
+.ex23{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+.overlay23{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    width: 100%;
+    height: 0%;
+    border-radius: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: rgb(47, 211, 129);
+    transition: 0.5s ease;
+}
+.text23{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.container23:hover .overlay23{
+    height: 100%;
+    top: 0;
+}
+.container24{
+    position: relative;
+    width: 31%;
+}
+.ex24{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+.overlay24{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    border-radius: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: rgb(47, 211, 129);
+    transition: 0.5s ease;
+}
+.text24{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.container24:hover .overlay24{
+    height: 100%;
+    bottom: 0;
+}
+.container25{
+    position: relative;
+    width: 31%;
+}
+.ex25{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+.overlay25{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    height: 100%;
+    border-radius: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: rgb(47, 211, 129);
+    transition: 0.5s ease;
+}
+.text25{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.container25:hover .overlay25{
+    width: 100%;
+}
+.container26{
+    position: relative;
+    width: 31%;
+}
+.ex26{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+.overlay26{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    height: 100%;
+    border-radius: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: rgb(47, 211, 129);
+    transition: 0.5s ease;
+}
+.text26{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.container26:hover .overlay26{
+    width: 100%;
+}
+.container26, .container25, .container24, .container23, .container22, .container21, .container20{
+    float: left;
+    margin: 1.1%;
+}
+.ex27{
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+.ex27:hover{
+    transform: scaleX(-1);
+}
+.container28{
+    width: 22.7%;
+    float: left;
+    margin: 1.1%;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.ex28{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.text28{
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+@media only screen and (max-width:900px) {
+    .container28{
+        width: 47.5%;
+    }
+}
+@media only screen and (max-width:500px) {
+    .container28{
+        width: 98%;
+    }
+}
+.container28:hover{
+    border: 2px solid rgb(0, 0, 0, 0.2);
+}
+#myImg{
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#myImg:hover{
+    opacity: 0.6;
+}
+/* The Modal (background) */
+.modal{
+    display: none; /* Hidden by default */
+    position: fixed; /*stay in place*/
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  /* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+  
+/* Add Animation */
+.modal-content, #caption {  
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@keyframes zoom {
+  from {transform: scale(0.1)} 
+  to {transform: scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+.ex29{
+    -webkit-box-reflect: below;
+    border-radius: 10px;
+    margin-bottom: 200px;
+}
+.ex30{
+    -webkit-box-reflect: right;
+    border-radius: 10px;
+}
+.ex31{
+    -webkit-box-reflect: above 10px;
+    border-radius: 10px;
+    margin-top: 210px;
+}
+.ex32{
+    width: 200px;
+    height: 300px;
+}
+.ex33{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+.ex34{
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+}
+.ex35{
+    width: 200px;
+    height: 300px;
+    object-fit: fill;
+}
