@@ -1,0 +1,21 @@
+.mask1{
+    -webkit-mask-image: url(images/w1.png);
+    mask-image: url(images/w1.png);
+    mask-repeat: no-repeat;
+}
+.mask2{
+    -webkit-mask-image: url(images/w1.png);
+    mask-image: url(images/w1.png);
+}
+.mask3{
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
+}
+.mask4{
+    background-image: url(images/gradi1.png);
+    background-repeat: no-repeat;
+    color: white;
+    padding: 10px;
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent);
+}
